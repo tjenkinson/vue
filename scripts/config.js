@@ -89,7 +89,7 @@ const builds = {
     entry: resolve('web/entry-runtime-with-compiler.js'),
     dest: resolve('dist/vue.esm.browser.js'),
     format: 'es',
-    transpile: false,
+    transpile: false, 
     env: 'development',
     alias: { he: './entity-decoder' },
     banner
